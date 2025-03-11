@@ -7,10 +7,6 @@ const RoleSchema = new Schema({
         Unique: true,
         required: true,
     },
-    // permissions: {
-    //     type: Array,
-    //     required: true,
-    // },
 });
 
 const Role = mongoose.model('Role', RoleSchema);
